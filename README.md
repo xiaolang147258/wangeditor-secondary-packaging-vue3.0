@@ -7,7 +7,7 @@
 ```
 ```
 
-###使用方法：
+### 使用方法：
 
 将代码下载拷贝到 components文件下
 引入：
@@ -22,9 +22,9 @@ components:{wangEditor},
 ```
 <wangEditor></wangEditor>
 ```
-###即可看到效果 （自带代码高亮显示）
+### 即可看到效果 （自带代码高亮显示）
 
-###参数配置：
+### 参数配置：
 设置html：  `:Editorhtml`
 
 设置编辑器高度：  `:EditorHeight`
@@ -65,14 +65,14 @@ components:{wangEditor},
 
 </blockquote>
 
-###回调函数
+### 回调函数
 获取html：  `v-on:EditorValueFn`  回调带有一个参数（输出的html）
 
 上传图片回调函数：  `v-on:getWangEditorimg`  回调带有一个参数（服务器返回的url）
 
 上传视频回调函数：  `v-on:getWangEditorvideo`  回调带有一个参数（服务器返回的url）
 
-####示例：
+#### 示例：
 ```
 <wangeditor :Editorhtml="Editorhtml" v-on:EditorValueFn="EditorValueFn"></wangeditor>
 ```
