@@ -77,7 +77,7 @@ components:{wangEditor},
 <wangeditor :Editorhtml="Editorhtml" v-on:EditorValueFn="EditorValueFn"></wangeditor>
 ```
 
-<blockquote>注意：需要注意的是：从编辑器中获取的 html 代码是不包含任何样式的纯 html，如果显示的时候需要对其中的 table code blockquote
+<blockquote>需要注意的是：从编辑器中获取的 html 代码是不包含任何样式的纯 html，如果显示的时候需要对其中的 table code blockquote
 等标签进行自定义样式（这样既可实现多皮肤功能）请引入插件中的 /css/tab.css 文件。<br>
 文件包中含有dome文件，刚开始不知道 怎么用可以先看看dome文件里面的使用方法。<br>
 如果有更好的封装方式 欢迎 ForK
