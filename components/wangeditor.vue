@@ -1,0 +1,1 @@
+<template>    <div ref='editor'></div></template><script>    import Wangeditor from "../ts/Wangeditor";    export default {        ...Wangeditor    };</script>
